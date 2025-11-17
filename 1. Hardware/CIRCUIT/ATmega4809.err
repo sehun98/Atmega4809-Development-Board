@@ -1,0 +1,31 @@
+PCB Net List Errors Report - ATmega4809.sch - Sun Feb 05 22:40:27 2023
+-----------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+No Library consistency checking errors.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Power or Ground Symbols used with wrong Net Name
+
++3V3
+1OF4         X9600  Y5600  - Power  Symbol used for net: +5V
+1OF4         X9400  Y3250  - Power  Symbol used for net: +5V
+1OF4         X5400  Y6650  - Power  Symbol used for net: +5V
+1OF4         X1500  Y7200  - Power  Symbol used for net: +5V
+1OF4         X2100  Y3200  - Power  Symbol used for net: +5V
+1OF4         X5800  Y3000  - Power  Symbol used for net: +5V
+2OF4         X2750  Y7100  - Power  Symbol used for net: +5V
+2OF4         X9000  Y5200  - Power  Symbol used for net: +5V
+3OF4         X2250  Y7100  - Power  Symbol used for net: +5V
+3OF4         X2250  Y5150  - Power  Symbol used for net: +5V
+3OF4         X8400  Y7150  - Power  Symbol used for net: +5V
+4OF4         X1900  Y800   - Power  Symbol used for net: +5V
+4OF4         X3100  Y3600  - Power  Symbol used for net: +5V
+4OF4         X4650  Y4250  - Power  Symbol used for net: +5V
+4OF4         X7300  Y7250  - Power  Symbol used for net: +5V
