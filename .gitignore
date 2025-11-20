@@ -1,0 +1,21 @@
+# Atmel Studio build output
+*.atsuo
+*.elf
+*.hex
+*.lss
+*.o
+*.d
+*.map
+*.srec
+*.eep
+
+# Debug folders
+Debug/
+Release/
+
+# Other auto-generated files
+*.dep
+*.obj
+*.a
+*.cache
+*.tmp
