@@ -35,7 +35,7 @@ Atmega4809 기반의 커스텀 개발 보드를 설계하여 GPIO, 타이머, AD
 
 ## Circuits
 
-![Circuit1](./4. Image/Circuit1.png)
+![Circuit1](./images/Circuit1.png)
 
 
 
@@ -43,7 +43,7 @@ Atmega4809 기반의 커스텀 개발 보드를 설계하여 GPIO, 타이머, AD
 
 
 
-![Circuit2](./4. Image/Circuit2.png)
+![Circuit2](./images/Circuit2.png)
 
 ### 1.1 MCU (ATmega4809) :
 
@@ -99,7 +99,7 @@ Wheatstone Bridge는 Voltage Divider와 달리 차동 측정 방식으로 정밀
 
 ## 2. UART & 7 Segment Display
 
-![Circuit3](./4. Image/Circuit3.png)
+![Circuit3](./images/Circuit3.png)
 
 ### 2.1 UART Driver & Connector :
 
@@ -119,7 +119,7 @@ Wheatstone Bridge는 Voltage Divider와 달리 차동 측정 방식으로 정밀
 
 ## 3. Stepper Motor, Ultrasonic, Rotary Encoder, EEPROM
 
-![Circuit4](./4. Image/Circuit4.png)
+![Circuit4](./images/Circuit4.png)
 
 ### 3.1 Ultrasonic :
 
@@ -175,7 +175,7 @@ Wheatstone Bridge는 Voltage Divider와 달리 차동 측정 방식으로 정밀
 
 ## 4. IO Expander, LCD, Keypad (SPI)
 
-![Circuit5](./4. Image/Circuit5.png)
+![Circuit5](./images/Circuit5.png)
 
 ### 4.1 IO Expander (MCP23S17):
 
@@ -208,34 +208,34 @@ Wheatstone Bridge는 Voltage Divider와 달리 차동 측정 방식으로 정밀
 
 # Part Layout
 
-![Part Layout](./4. Image/Part Layout.png)
+![Part Layout](./images/part_layout.png)
 
 
 
 # Top Layer
 
-![Top Layout](./4. Image/Top Layout.png)
+![Top Layout](./images/Top_layout.png)
 
 
 
 # Bottom Layer
 
-![Bottom Layout](./4. Image/Bottom Layout.png)
+![Bottom Layout](./images/Bottom_layout.png)
 
 # Communication
 
 ## 1. UART 통신
 
-![Communication1](./4. Image/Communication1.png)
+![Communication1](./images/Communication1.png)
 
 
 
 ## 2. SPI 통신
 
-![Communication2](./4. Image/Communication2.png)
+![Communication2](./images/Communication2.png)
 
 
 
 ## 3. I2C 통신
 
-![Communication3](./4. Image/Communication3.png)
+![Communication3](./images/Communication3.png)
