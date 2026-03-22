@@ -78,13 +78,30 @@ Atmega4809 기반의 커스텀 개발 보드를 설계하여 GPIO, 타이머, AD
 ### 1.3 Strain Gauge :
 
 - Description : Wheatstone Bridge + MCP6002 OP-AMP
+
 - Operating Voltage : 3.3V
+
 - Communication : ADC
+
 - Resistor(R4~R7) : Setting the gain of the MCP6002 OP-AMP
+
+  $$ V_{out} = \frac{R_4}{R_5} \times (V_{+} - V_{-})
+
+  $$
+
+  $$ {R_5}={R_6},{R_4}={R_7} $$
 
 - Resistor(R8~R10) : Wheatstone Bridge
 
 Wheatstone Bridge는 Voltage Divider와 달리 차동 측정 방식으로 정밀성, CMRR, 온도 보상에 우수하다.
+
+Voltage Divisor
+
+$$ V_{out} = V_{in} \times \frac{R_{sensor}}{R_{sensor} + R_{10}} $$
+
+Wheatstone Bridge
+
+$$ V_{out} = V_{in} \times \left( \frac{R_8}{R_8 + R_9} - \frac{R_{sensor}}{R_{sensor} + R_{10}} \right) $$
 
 
 
