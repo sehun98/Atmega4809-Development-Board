@@ -71,7 +71,8 @@ Atmega4809 기반의 커스텀 개발 보드를 설계하여 GPIO, 타이머, AD
 
   Voltage Divider
 
-  $$ V_{out} = V_{in} \times \frac{R_{CDS}}{R_{CDS} + R_3} $$
+
+$$ V_{out} = V_{in} \times \frac{R_{CDS}}{R_{CDS} + R_3} $$
 
 - Capacitor (C3) 0.1µF : Power supply stability
 
@@ -85,9 +86,10 @@ Atmega4809 기반의 커스텀 개발 보드를 설계하여 GPIO, 타이머, AD
 
 - Resistor(R4~R7) : Setting the gain of the MCP6002 OP-AMP
 
-  $$ V_{out} = \frac{R_4}{R_5} \times (V_{+} - V_{-})$$
 
-  $$ {R_5}={R_6},{R_4}={R_7} $$
+$$ V_{out} = \frac{R_4}{R_5} \times (V_{+} - V_{-}) $$
+
+$$ {R_5}={R_6},{R_4}={R_7} $$
 
 - Resistor(R8~R10) : Wheatstone Bridge
 
