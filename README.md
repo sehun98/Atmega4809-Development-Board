@@ -85,9 +85,7 @@ Atmega4809 기반의 커스텀 개발 보드를 설계하여 GPIO, 타이머, AD
 
 - Resistor(R4~R7) : Setting the gain of the MCP6002 OP-AMP
 
-  $$ V_{out} = \frac{R_4}{R_5} \times (V_{+} - V_{-})
-
-  $$
+  $$ V_{out} = \frac{R_4}{R_5} \times (V_{+} - V_{-})$$
 
   $$ {R_5}={R_6},{R_4}={R_7} $$
 
@@ -231,13 +229,13 @@ $$ V_{out} = V_{in} \times \left( \frac{R_8}{R_8 + R_9} - \frac{R_{sensor}}{R_{s
 
 # Top Layer
 
-![Top Layout](./images/Top_layout.png)
+![top_layout](./images/top_layout.png)
 
 
 
 # Bottom Layer
 
-![Bottom Layout](./images/Bottom_layout.png)
+![bottom_layout](./images/bottom_layout.png)
 
 # Communication
 
