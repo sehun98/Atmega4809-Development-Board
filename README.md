@@ -2,7 +2,7 @@
 
 ## PCB Assembly
 
-![PCB Assembly](./4. Image/PCB Assembly.png)
+![PCB Assembly](./images/pcb_assembly.png)
 
 
 
